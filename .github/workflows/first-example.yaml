@@ -19,4 +19,4 @@ jobs:
                 find . -name "README.md"
 
             - name: Read file
-              run: cat README.md
+              run: .github/workflows/README.md
